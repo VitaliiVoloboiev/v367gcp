@@ -11,10 +11,10 @@ resource "m3_instance" "my-server" {
 }
 
 variable "tenantName" {
-  description = "m3_3ah_::)Tenant name"
+  description = "Tenant name"
 }
 variable "regionName" {
-  description = "m3_2ah_::)Region name"
+  description = "Region name"
 }
 variable "key_name" {
   description = "key_name"
