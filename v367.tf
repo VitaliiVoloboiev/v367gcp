@@ -2,7 +2,7 @@
 provider "m3" {}
 resource "m3_instance" "my-server" {
   image = "Ubuntu20.04_64-bit"
-  name = "v367fromGH"
+  name = "v367gh"
   region = var.regionName
   tenant = var.tenantName
   shape = "MICRO"
